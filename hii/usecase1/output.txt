@@ -1,0 +1,32 @@
+Here's an example of how you can create a Leap Year program in JavaScript:
+
+```javascript
+// Function to check if a given year is a leap year or not
+function isLeapYear(year) {
+  // To be a leap year, the year must be divisible by 4
+  if (year % 4 === 0) {
+    // If the year is divisible by 100, it must also be divisible by 400 to be a leap year
+    if (year % 100 === 0 && year % 400 !== 0) {
+      return false;
+    }
+    return true;
+  }
+  return false;
+}
+
+// Test the function
+const year = 2020;
+if (isLeapYear(year)) {
+  console.log(year + ' is a leap year.');
+} else {
+  console.log(year + ' is not a leap year.');
+}
+```
+
+In this program, we define a function `isLeapYear` that takes a year as input and checks if it is a leap year or not. 
+
+To determine whether a year is a leap year, we use the following criteria:
+- The year must be divisible by 4.
+- If the year is divisible by 100, it must also be divisible by 400.
+
+We then test the function by passing a year (in this case, 2020) and log the result to the console.
