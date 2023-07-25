@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .side-bar {
+    width: 200px;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  .main {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+  
+  .history {
+    margin-top: 20px;
+  }
+  
+  .history p {
+    margin: 0;
+    padding: 5px;
+    background-color: #ddd;
+    cursor: pointer;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .input-container input {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .input-container #submit {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .info {
+    font-size: 12px;
+    color: #666;
+    margin-top: 20px;
+  }
