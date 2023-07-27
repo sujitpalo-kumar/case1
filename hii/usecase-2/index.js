@@ -45,17 +45,17 @@ const prompts = [
   {
     prompt:
       "Formulate the csv for employee leave having Employee ID as (EMP01,...),Employee Name like  like ''sujit','sagar','suraj'',Leave Type(half day,full day),Start Date,End Date,Leave Duration,Leave Status Approval Status like Approved or  count four Rejected   half day for June month",
-    filename: "Emp_leave.csv",
+    filename: "Emp_Leave.csv",
   },
   {
     prompt:
       "Formulate the csv file for   2023 holidays as per india calendar having Date as DD-MM-YYYY,Day,Holiday Name,Type Public ",
-    filename: "Emp_holiday.csv",
+    filename: "Emp_Holiday.csv",
   },
   {
     prompt:
       "Formulate the Attendance sheet for three workers like ''sujit,''sagar,''suraj'' for the month of July in csv format with headings, Employee Name,Employee Id(EMP...),Total Working Day(Calculated),Its (Working Day less than 22 return leave),Total Working Hours Calculated.eliminating weekends, holidays, and rejected leaves, and based on the number of working days, with each day consisting of 9 hours of employee.",
-    filename: "Emp_result_july.csv",
+    filename: "Emp_Total_july.csv",
   },
 ];
 
