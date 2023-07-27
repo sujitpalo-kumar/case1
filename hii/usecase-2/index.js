@@ -1,3 +1,35 @@
+//  Import required libraries - 'fs' for file handling, 'axios' for making HTTP requests.
+
+//  Define constants for the API URL and API key.
+
+//  Define an array of objects named 'prompts'. Each object contains two properties: 'prompt' (the instruction for the API) and 'filename' (the name of the file where the response will be stored).
+
+//  Define an asynchronous function named 'res' that takes 'prompts' as an argument.
+
+//   Inside the function, try the following steps:
+
+//Define the headers for the HTTP request which includes the API key and content type.
+
+// Initialize an empty string named 'cumulativeResponses'.
+
+// Iterate over each 'prompt' object in the 'prompts' array.
+
+//  Print the current 'prompt' to the console.
+
+//  Define the body of the request which includes the model, messages, max tokens, and temperature.
+
+//  Make a POST request to the API URL, passing the 'body' and 'headers'. Wait for the response.
+
+//   Extract the 'content' from the first 'choice' in the response data.
+
+// Write the 'content' to a file with a name specified by 'prompt.filename'.
+
+// Print a success message to the console.
+
+//  If an error occurs during the process, print the error message and rethrow the error.
+
+//  Call the 'res' function, passing in the 'prompts' array.
+
 const fs = require("fs");
 const axios = require("axios");
 const apiUrl = "https://api.openai.com/v1/chat/completions";
@@ -65,3 +97,5 @@ async function res(prompts) {
 }
 
 res(prompts);
+
+//Pseudocode
