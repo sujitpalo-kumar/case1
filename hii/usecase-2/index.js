@@ -1,3 +1,4 @@
+//Pseudocode
 //  Import required libraries - 'fs' for file handling, 'axios' for making HTTP requests.
 
 //  Define constants for the API URL and API key.
