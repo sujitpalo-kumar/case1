@@ -1,0 +1,32 @@
+Employee ID,Date,Day of the Week,Time-in,Time-out,Total Hours Worked
+EMP01,01-07-2022,Friday,9:30 AM,6:00 PM,8.5
+EMP01,02-07-2022,weekend off,weekend off,weekend off,0
+EMP01,03-07-2022,weekend off,weekend off,weekend off,0
+EMP01,04-07-2022,Monday,9:15 AM,6:30 PM,9.25
+EMP01,05-07-2022,Tuesday,9:00 AM,7:00 PM,10
+EMP01,06-07-2022,Wednesday,9:30 AM,6:15 PM,8.75
+EMP01,07-07-2022,Thursday,9:15 AM,6:45 PM,8.5
+EMP01,08-07-2022,Friday,9:30 AM,6:00 PM,8.5
+EMP01,09-07-2022,weekend off,weekend off,weekend off,0
+EMP01,10-07-2022,weekend off,weekend off,weekend off,0
+EMP01,11-07-2022,Monday,9:00 AM,6:30 PM,9.5
+EMP01,12-07-2022,Tuesday,9:15 AM,7:15 PM,10
+EMP01,13-07-2022,Wednesday,9:30 AM,6:00 PM,8.5
+EMP01,14-07-2022,Thursday,9:00 AM,6:30 PM,9.5
+EMP01,15-07-2022,Friday,9:15 AM,6:45 PM,8.5
+EMP01,16-07-2022,weekend off,weekend off,weekend off,0
+EMP01,17-07-2022,weekend off,weekend off,weekend off,0
+EMP01,18-07-2022,Monday,9:30 AM,6:00 PM,8.5
+EMP01,19-07-2022,Tuesday,9:15 AM,6:45 PM,8.5
+EMP01,20-07-2022,Wednesday,9:00 AM,7:00 PM,10
+EMP01,21-07-2022,Thursday,9:30 AM,6:15 PM,8.75
+EMP01,22-07-2022,Friday,9:15 AM,6:30 PM,8.25
+EMP01,23-07-2022,weekend off,weekend off,weekend off,0
+EMP01,24-07-2022,weekend off,weekend off,weekend off,0
+EMP01,25-07-2022,Monday,9:30 AM,6:00 PM,8.5
+EMP01,26-07-2022,Tuesday,9:00 AM,6:30 PM,9.5
+EMP01,27-07-2022,Wednesday,9:15 AM,6:45 PM,8.5
+EMP01,28-07-2022,Thursday,9:30 AM,6:15 PM,8.75
+EMP01,29-07-2022,Friday,9:00 AM,6:30 PM,9.5
+EMP01,30-07-2022,weekend off,weekend off,weekend off,0
+EMP01,31-07-2022,weekend off,weekend off,weekend off,0
