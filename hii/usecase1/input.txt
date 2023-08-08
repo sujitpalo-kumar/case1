@@ -1,1 +1,1 @@
-using javascript create a leap year program
+using javascript create sum of two number

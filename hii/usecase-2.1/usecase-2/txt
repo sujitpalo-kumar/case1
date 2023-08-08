@@ -1,0 +1,29 @@
+// Implementing Attendance Calculation for an employee for a
+// month
+
+// Step-1
+
+// “Implementing Attendance Calculation for an employees using a Biometric Swipe
+// machine for June (June Attendance for Employee) and store it in emp_att_june.csv”
+
+//
+// Number of working days: 22
+// - If the attendance is less than 22, calculate the attendance considering marked
+// leaves
+// and public holidays and store it in emp_att_cal.csv
+
+//
+
+// If the attendance for a month is accurate as per calculation, proceed with
+// processing the
+// payroll i.e. Send emp_att_june.csv and emp_att_cal.csv to process and calculate
+// the
+// attendance for the month of june and output the result into emp_att_result_june.csv
+
+//
+// Summarization of above slides
+// In Step-1 you have to generate the csv file of employees for june month so write a prompt to generate the csv file for 3 employees for 30 Days .
+// In step 2 you have to create the employee leave file in csv format.
+// In step-3 you have to create the public holiday csv file .
+// In step -4 you need to calculate the employee attendance for june month by filtering their employee leave sheet and public holiday sheet.
+// In step-5 you need to store the calculated results of employee in resultend output csv sheet.

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h3>Enter your question:</h3>
+
+    <input type="text" id="question">
+    <button onclick="processQuestion()">Submit</button>
+
+    <h3>API response:</h3>
+    <textarea id="response" rows="10" cols="50"></textarea>
+
+    <a id="downloadLink" style="display:none">Download output</a>
+    <br>
+    <a id="downloads" style="display:none">Download input</a>
+
+    <script>
+        async function processQuestion() {
+
+            const questionInput = document.getElementById('question');
+            const question = questionInput.value;
+            const apikey = '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';
+
+            const response = await fetch('https://api.openai.com/v1/chat/completions', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    Authorization: `Bearer ${apikey}`
+                },
+                body: JSON.stringify({
+                    model: 'gpt-3.5-turbo',
+                    messages: [
+                        {
+                            role: 'system',
+                            content: 'You are chatting with OpenAI Assistant'
+                        },
+                        {
+                            role: 'user',
+                            content: question
+                        }
+                    ]
+                })
+            });
+
+            const result = await response.json();
+            const responseText = result;
+            const value = responseText
+            // console.log(value);
+
+            document.getElementById('response').textContent = responseText.choices[0].message.content.trim();
+            if (value) {
+                const content = responseText;
+                console.log("string", content);
+            } else {
+                console.log('The choices array is missing or empty.');
+            }
+            // create an output file
+            const jsonstring = JSON.stringify(responseText.choices[0].message.content.trim())
+
+            const outputBlob = new Blob([jsonstring], { type: 'text/plain' });
+            const downloadLink = document.getElementById('downloadLink');
+            downloadLink.href = URL.createObjectURL(outputBlob);
+            downloadLink.download = 'output.txt';
+            downloadLink.style.display = 'block';
+            //input file
+            const out = new Blob([question], { type: 'text/plain' });
+            const downloads = document.getElementById('downloads');
+            downloads.href = URL.createObjectURL(out);
+            downloads.download = 'output.txt';
+            downloads.style.display = 'block';
+        }
+    </script>
+
+</body>
+
+</html>

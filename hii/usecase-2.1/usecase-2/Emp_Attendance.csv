@@ -1,0 +1,94 @@
+Employee ID,Date,Day of the Week,Time-in,Time-out,Total Hours Worked
+EMP01,01-07-2022,Friday,9:00 AM,6:00 PM,9
+EMP01,02-07-2022,weekend off,weekend off,weekend off,0
+EMP01,03-07-2022,weekend off,weekend off,weekend off,0
+EMP01,04-07-2022,Monday,9:30 AM,7:00 PM,9.5
+EMP01,05-07-2022,Tuesday,9:15 AM,6:30 PM,9.25
+EMP01,06-07-2022,Wednesday,9:00 AM,6:15 PM,9.25
+EMP01,07-07-2022,Thursday,9:10 AM,6:20 PM,9.17
+EMP01,08-07-2022,Friday,9:05 AM,7:30 PM,10.42
+EMP01,09-07-2022,weekend off,weekend off,weekend off,0
+EMP01,10-07-2022,weekend off,weekend off,weekend off,0
+EMP01,11-07-2022,Monday,9:00 AM,6:00 PM,9
+EMP01,12-07-2022,Tuesday,9:00 AM,6:00 PM,9
+EMP01,13-07-2022,Wednesday,9:00 AM,6:00 PM,9
+EMP01,14-07-2022,Thursday,9:00 AM,6:00 PM,9
+EMP01,15-07-2022,Friday,9:00 AM,6:00 PM,9
+EMP01,16-07-2022,weekend off,weekend off,weekend off,0
+EMP01,17-07-2022,weekend off,weekend off,weekend off,0
+EMP01,18-07-2022,Monday,9:00 AM,6:00 PM,9
+EMP01,19-07-2022,Tuesday,9:00 AM,6:00 PM,9
+EMP01,20-07-2022,Wednesday,9:00 AM,6:00 PM,9
+EMP01,21-07-2022,Thursday,9:00 AM,6:00 PM,9
+EMP01,22-07-2022,Friday,9:00 AM,6:00 PM,9
+EMP01,23-07-2022,weekend off,weekend off,weekend off,0
+EMP01,24-07-2022,weekend off,weekend off,weekend off,0
+EMP01,25-07-2022,Monday,9:00 AM,6:00 PM,9
+EMP01,26-07-2022,Tuesday,9:00 AM,6:00 PM,9
+EMP01,27-07-2022,Wednesday,9:00 AM,6:00 PM,9
+EMP01,28-07-2022,Thursday,9:00 AM,6:00 PM,9
+EMP01,29-07-2022,Friday,9:00 AM,6:00 PM,9
+EMP01,30-07-2022,weekend off,weekend off,weekend off,0
+EMP01,31-07-2022,weekend off,weekend off,weekend off,0
+EMP02,01-07-2022,Friday,9:00 AM,6:00 PM,9
+EMP02,02-07-2022,weekend off,weekend off,weekend off,0
+EMP02,03-07-2022,weekend off,weekend off,weekend off,0
+EMP02,04-07-2022,Monday,9:00 AM,6:00 PM,9
+EMP02,05-07-2022,Tuesday,9:00 AM,6:00 PM,9
+EMP02,06-07-2022,Wednesday,9:00 AM,6:00 PM,9
+EMP02,07-07-2022,Thursday,9:00 AM,6:00 PM,9
+EMP02,08-07-2022,Friday,9:00 AM,6:00 PM,9
+EMP02,09-07-2022,weekend off,weekend off,weekend off,0
+EMP02,10-07-2022,weekend off,weekend off,weekend off,0
+EMP02,11-07-2022,Monday,9:00 AM,6:00 PM,9
+EMP02,12-07-2022,Tuesday,9:00 AM,6:00 PM,9
+EMP02,13-07-2022,Wednesday,9:00 AM,6:00 PM,9
+EMP02,14-07-2022,Thursday,9:00 AM,6:00 PM,9
+EMP02,15-07-2022,Friday,9:00 AM,6:00 PM,9
+EMP02,16-07-2022,weekend off,weekend off,weekend off,0
+EMP02,17-07-2022,weekend off,weekend off,weekend off,0
+EMP02,18-07-2022,Monday,9:00 AM,6:00 PM,9
+EMP02,19-07-2022,Tuesday,9:00 AM,6:00 PM,9
+EMP02,20-07-2022,Wednesday,9:00 AM,6:00 PM,9
+EMP02,21-07-2022,Thursday,9:00 AM,6:00 PM,9
+EMP02,22-07-2022,Friday,9:00 AM,6:00 PM,9
+EMP02,23-07-2022,weekend off,weekend off,weekend off,0
+EMP02,24-07-2022,weekend off,weekend off,weekend off,0
+EMP02,25-07-2022,Monday,9:00 AM,6:00 PM,9
+EMP02,26-07-2022,Tuesday,9:00 AM,6:00 PM,9
+EMP02,27-07-2022,Wednesday,9:00 AM,6:00 PM,9
+EMP02,28-07-2022,Thursday,9:00 AM,6:00 PM,9
+EMP02,29-07-2022,Friday,9:00 AM,6:00 PM,9
+EMP02,30-07-2022,weekend off,weekend off,weekend off,0
+EMP02,31-07-2022,weekend off,weekend off,weekend off,0
+EMP03,01-07-2022,Friday,9:00 AM,6:00 PM,9
+EMP03,02-07-2022,weekend off,weekend off,weekend off,0
+EMP03,03-07-2022,weekend off,weekend off,weekend off,0
+EMP03,04-07-2022,Monday,9:00 AM,6:00 PM,9
+EMP03,05-07-2022,Tuesday,9:00 AM,6:00 PM,9
+EMP03,06-07-2022,Wednesday,9:00 AM,6:00 PM,9
+EMP03,07-07-2022,Thursday,9:00 AM,6:00 PM,9
+EMP03,08-07-2022,Friday,9:00 AM,6:00 PM,9
+EMP03,09-07-2022,weekend off,weekend off,weekend off,0
+EMP03,10-07-2022,weekend off,weekend off,weekend off,0
+EMP03,11-07-2022,Monday,9:00 AM,6:00 PM,9
+EMP03,12-07-2022,Tuesday,9:00 AM,6:00 PM,9
+EMP03,13-07-2022,Wednesday,9:00 AM,6:00 PM,9
+EMP03,14-07-2022,Thursday,9:00 AM,6:00 PM,9
+EMP03,15-07-2022,Friday,9:00 AM,6:00 PM,9
+EMP03,16-07-2022,weekend off,weekend off,weekend off,0
+EMP03,17-07-2022,weekend off,weekend off,weekend off,0
+EMP03,18-07-2022,Monday,9:00 AM,6:00 PM,9
+EMP03,19-07-2022,Tuesday,9:00 AM,6:00 PM,9
+EMP03,20-07-2022,Wednesday,9:00 AM,6:00 PM,9
+EMP03,21-07-2022,Thursday,9:00 AM,6:00 PM,9
+EMP03,22-07-2022,Friday,9:00 AM,6:00 PM,9
+EMP03,23-07-2022,weekend off,weekend off,weekend off,0
+EMP03,24-07-2022,weekend off,weekend off,weekend off,0
+EMP03,25-07-2022,Monday,9:00 AM,6:00 PM,9
+EMP03,26-07-2022,Tuesday,9:00 AM,6:00 PM,9
+EMP03,27-07-2022,Wednesday,9:00 AM,6:00 PM,9
+EMP03,28-07-2022,Thursday,9:00 AM,6:00 PM,9
+EMP03,29-07-2022,Friday,9:00 AM,6:00 PM,9
+EMP03,30-07-2022,weekend off,weekend off,weekend off,0
+EMP03,31-07-2022,weekend off,weekend off,weekend off,0

@@ -2,7 +2,7 @@ const readline = require("readline");
 const fs = require("fs");
 const axios = require("axios");
 
-// Function to interact with ChatGPT API
+//Function to interact with ChatGPT API ?
 async function generateChatGptResponse(apiKey, messages) {
   const apiUrl = "https://api.openai.com/v1/chat/completions";
   const headers = {
@@ -67,7 +67,7 @@ rl.question("Enter your prompt: ", async (prompt) => {
   const inputContent = readInputFromFile(inputFilePath);
 
   // Step 3: Perform computation on the input and interact with ChatGPT API
-  const apiKey = "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";
+  const apiKey = "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";
   const messages = [{ role: "system", content: prompt }];
   const response = await generateChatGptResponse(apiKey, messages);
 
