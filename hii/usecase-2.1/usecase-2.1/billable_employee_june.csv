@@ -1,5 +1,5 @@
 Employee ID,Name,Designation,Billable,Total Working Hours,Billable Hours,Non-Billable Hours,Bill Rate,Total Billable Amount
-EMP001,John Doe,Software Developer,Billiable,160,160,0,20,3200
+EMP001,John Doe,Software Developer,Billiable,160,160,0,10,1600
 EMP002,Jane Smith,Senior Software Developer,Billiable,160,160,0,25,4000
-EMP003,Michael Johnson,QA Engineer,Non-Billable,160,0,160,15,0
-EMP004,Emily Davis,DevOps Engineer,Billiable,160,160,0,30,4800
+EMP003,Mark Johnson,QA Engineer,Non-Billable,160,0,160,25,0
+EMP004,Sarah Williams,DevOps Engineer,Billiable,160,160,0,15,2400

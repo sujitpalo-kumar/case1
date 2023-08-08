@@ -6,10 +6,10 @@ const PDFDocument = require("pdfkit");
 function generateBillableEmployeeCSV(csvFilePath, outputFilePath) {
   // Define bill rates based on designation
   const billRates = {
-    "Software Developer": 20,
+    "Software Developer": 10,
     "Senior Software Developer": 25,
-    "QA Engineer": 15,
-    "DevOps Engineer": 30,
+    "QA Engineer": 25,
+    "DevOps Engineer": 15,
   };
 
   // Set billable hours per day
